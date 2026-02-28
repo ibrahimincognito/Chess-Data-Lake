@@ -17,7 +17,7 @@ A fully automated, serverless data pipeline that tracks daily rating changes of 
 ## Architecture
 
 <p align="center">
-  <img src="architecture/pipeline-diagram.png" width="900">
+  <img src="architecture/lichess-pipeline-diagram.png" width="900">
 </p>
 
 1. **Amazon EventBridge** triggers a daily Lambda function at 00:05 UTC.
@@ -147,6 +147,7 @@ If you want to replicate this pipeline in your own AWS account:
 
 - Lichess API for providing free, open chess data.
 - AWS Free Tier for enabling cost‑free learning and experimentation.
+
 
 
 
